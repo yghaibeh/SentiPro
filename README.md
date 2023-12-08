@@ -1,4 +1,4 @@
-# SentiPro - Sentiment Analyser
+# SentiPro - BERT-Based Sentiment Analysis
 
 ## Overview
 This project implements sentiment analysis using a BERT-based model within a Django web application. The application allows users to input text prompts and receive sentiment analysis results. The sentiment model is trained using a custom dataset, which is derived from the [Amazon Fine Food Reviews dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews) on Kaggle.
