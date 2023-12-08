@@ -114,6 +114,16 @@ The `load_and_evaluate_on_saved_model` method in `model_trainer.py` allows loadi
 - [Saved Model - Epoch 2](https://drive.google.com/file/d/1-RfdGZeS2Bu0blz3iBNH_MEy8x426Xsh/view?usp=sharing).
 - [Saved Model - Epoch 3](https://drive.google.com/file/d/1-D-Y8jdbTe8MNnboR_OIgyFrCfsX0uBy/view?usp=sharing).
 
+## External Resources:
+1. **Transformer-based Contextual Model for Sentiment Analysis of Customer Reviews: A Fine-tuned BERT**
+   - [Read Paper](https://thesai.org/Downloads/Volume12No11/Paper_53-Transformer_based_Contextual_Model_for_Sentiment_Analysis.pdf)
+   - This research paper serves as a foundational resource, guiding the implementation of a transformer-based model fine-tuned for sentiment analysis. It provides valuable insights into the contextual modeling approach using BERT.
+
+2. **A Study and Comparison of Sentiment Analysis Methods for Reputation Evaluation**
+   - [Read Paper](https://liris.cnrs.fr/Documents/Liris-6508.pdf)
+   - This resource offers a comprehensive study and comparison of various sentiment analysis methods, providing insights into effective techniques for reputation evaluation. The project draws inspiration from these methodologies to enhance its sentiment analysis capabilities.
+
+
 ### Usage Note
 To use the project, copy the desired saved model file to the `saved_models` directory. Additionally, ensure to update the `SENTIMENT_MODEL_PATH` variable in `settings.py` with the correct path to the selected model.
 
