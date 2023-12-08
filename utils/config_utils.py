@@ -36,7 +36,7 @@ class CustomConfig:
     device: torch.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     epochs: int = 5
     num_classes: int = 3
-    desired_samples = 20000
+    desired_samples = 42000
     batch_size: int = 6
     max_length: int = 512
     learning_rate: float = 2e-5
