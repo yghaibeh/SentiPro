@@ -1,0 +1,1 @@
+default_app_config = 'sentiment_analysis.apps.MyAppConfig'
