@@ -48,7 +48,9 @@ The `ChatView` class in this Django app handles rendering the chat interface and
 ### `utils/`
 The `utils` directory contains utility modules such as configuration management (`config_utils.py`), metrics computation (`metrics.py`), and other helper functions.
 
+...
 ## Training Results
+...
 
 ### Epoch 1
 - **Training loss:** 0.5768399631623179
@@ -107,6 +109,14 @@ After training, the model can be evaluated using the evaluate method in `model_t
 ### Inference with Saved Model
 The `load_and_evaluate_on_saved_model` method in `model_trainer.py` allows loading a saved model for evaluation on the validation and test sets.
 
+### Model Links
+- [Saved Model - Epoch 1](https://drive.google.com/file/d/1-LiAZWx-Dcb2H1A3K4WT26Xlvafy2wgM/view?usp=sharing).
+- [Saved Model - Epoch 2](https://drive.google.com/file/d/1-RfdGZeS2Bu0blz3iBNH_MEy8x426Xsh/view?usp=sharing).
+- [Saved Model - Epoch 3](https://drive.google.com/file/d/1-D-Y8jdbTe8MNnboR_OIgyFrCfsX0uBy/view?usp=sharing).
+
+### Usage Note
+To use the project, copy the desired saved model file to the `saved_models` directory. Additionally, ensure to update the `SENTIMENT_MODEL_PATH` variable in `settings.py` with the correct path to the selected model.
+
 ### Issues and Notes
 Document any known issues, limitations, or additional notes related to the project.
 
@@ -115,6 +125,9 @@ Feel free to further customize or expand the content based on your specific proj
 
 ## Project Creator
 Muhammad Yaman Ghaibeh
+
+Website: myaman.me
+
 Contact: YGhaibeh@hotmail.com
 
 Feel free to let me know if you have any further requests or modifications!
